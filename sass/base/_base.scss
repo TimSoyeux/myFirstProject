@@ -12,5 +12,9 @@ html {
 }
 
 body {
+    display: grid;
+    grid-template-rows: 8.5vh 1fr 30vh;
+    grid-template-columns: 1fr;
     box-sizing: border-box;
 }
+
